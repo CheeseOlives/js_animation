@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="/styles/styles.css" />
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"
+      defer
+    ></script>
+    <script src="/scripts/main.js" defer></script>
+  </head>
+
+  <body>
+    <!-- <svg viewBox="-100 -100 200 200">
+      <circle id="blue-circle" x="-50" y="0" r="10" fill="blue" />
+      <rect id="red-square" x="-50" y="0" width="20" height="20" fill="red" />
+
+      <polygon class="triangle" points="-10,-75 2,-50 -22,-50 " fill="green" />
+      <polygon class="triangle" points="0,-75 12,-50 -12,-50 " fill="green" />
+    </svg> -->
+
+    <div class="svgBox">
+      <svg viewBox="0 0 50 15">
+        <!-- 'H' -->
+        <rect id="h-part1" x="0" y="0" width="2" height="15" fill="red" />
+        <rect id="h-part2" x="2" y="6.5" width="5" height="2" fill="orange" />
+        <rect id="h-part3" x="7" y="0" width="2" height="15" fill="red" />
+
+        <!-- 'E' -->
+        <rect id="e-part1" x="10" y="0" width="2" height="15" fill="yellow" />
+        <rect
+          class="e-horizontal"
+          id="e-part2"
+          x="12"
+          y="0"
+          width="5"
+          height="2"
+          fill="green"
+        />
+        <rect
+          class="e-horizontal"
+          id="e-part3"
+          x="12"
+          y="6.5"
+          width="5"
+          height="2"
+          fill="green"
+        />
+        <rect
+          class="e-horizontal"
+          id="e-part4"
+          x="12"
+          y="13"
+          width="5"
+          height="2"
+          fill="green"
+        />
+
+        <!-- first 'L' -->
+        <rect id="l1-part1" x="18" y="0" width="2" height="15" fill="purple" />
+        <rect id="l1-part2" x="20" y="13" width="5" height="2" fill="green" />
+
+        <!-- second 'L' -->
+        <rect id="l2-part1" x="26" y="0" width="2" height="15" fill="blue" />
+        <rect id="l2-part2" x="28" y="13" width="5" height="2" fill="gray" />
+
+        <!-- 'O' -->
+        <ellipse
+          class="o-part"
+          cx="39.5"
+          cy="7.5"
+          rx="5"
+          ry="7.5"
+          fill="'black"
+        />
+        <ellipse
+          class="o-part"
+          cx="39.5"
+          cy="7.5"
+          rx="2.5"
+          ry="3.75"
+          fill="white"
+        />
+      </svg>
+    </div>
+  </body>
+</html>
